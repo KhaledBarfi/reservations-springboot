@@ -1,4 +1,4 @@
-package be.iccbxl.pid.reservationsspringboot.web;
+package be.iccbxl.pid.reservationsspringboot.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
