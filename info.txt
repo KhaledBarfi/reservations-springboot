@@ -1,0 +1,2 @@
+Lancez le projet en démarrant votre application Spring Boot. Flyway détectera automatiquement les fichiers de migration SQL (dans le dossier resources/db/migration) et appliquera les migrations pour créer et remplir les tables dans la base de données.
+Vérifiez dans votre base de données que les tables ont bien été créées et que les données ont été insérées correctement.
