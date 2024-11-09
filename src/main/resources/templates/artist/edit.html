@@ -38,6 +38,8 @@
 
         <nav><a th:href="@{/artists}">Retour à l'index</a></nav>
     </div>
+    <!-- CSRF Token -->
+    <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
 </div>
 </body>
 </html>

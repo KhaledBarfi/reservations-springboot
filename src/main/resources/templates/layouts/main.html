@@ -8,6 +8,9 @@
     </th:block>
 </head>
 <body>
+<!-- CSRF Token -->
+<input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+
 <div th:replace="fragments/header :: header">Header here</div>
 <div class="container">
     <div layout:fragment="content">Main content will be inserted here.</div>

@@ -8,5 +8,7 @@
 <footer th:fragment="footer">
     &copy; 2023 – EPFC / ICC – Projet Réservations
 </footer>
+<!-- CSRF Token -->
+<input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
 </body>
 </html>
